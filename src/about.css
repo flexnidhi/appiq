@@ -1,0 +1,69 @@
+body{
+    background-color: #f3f4ff
+}
+
+.about-name{
+    position: absolute;
+    z-index: 10;
+    color: white;
+    font-size: 50px;
+    margin-top: 10%;
+    width: 100%;
+    text-align: center;
+}
+.about-img{
+    width: 100%;
+    height: 50vh;
+}
+.wavy-img{
+    width: 100%;
+    margin-top: -50px;
+}
+
+.about-intro{
+    display: flex
+    ;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5rem;
+}
+
+.member{
+    background: white;
+    text-align: center;
+    padding: 19px 0;
+    border-radius: 13px;
+}
+.member:hover{
+    background-color: #090023cc;
+    color: white;
+}
+.about-member{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.about-member h3{
+    margin-top: 40px;
+}
+.member-img{
+    border: 1px solid;
+    border-radius: 32px;
+}
+
+.yoga-section{
+    width: 100%;
+    width: 100%;
+    display: flex
+;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+   
+    .about-name{
+      margin-top: 29%;
+    }
+  }

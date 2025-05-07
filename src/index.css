@@ -1,0 +1,273 @@
+
+
+.body{
+  background-color: #f3f4ff
+}
+.main_container{
+  width: 100%;
+}
+
+.nav_bar{
+ 
+  gap: 25%;
+}
+.navbar{
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+  background-color: #090023cc
+}
+.nav_logo{
+  display: flex
+  ;
+      align-items: center;
+}
+.nav-items{
+  gap: 14px;
+  color: white;
+  font-size: 19px;
+  color: white;
+}
+
+.nav-item:hover{
+  border-bottom: 2px solid #7a83dc;
+  
+}
+.nav-link:hover{
+  color: white;
+}
+.nav-link{
+  color: white;
+}
+/* .nav_btn{
+  height: 41px;
+  margin-top: 13px;
+  border: none;
+  border-radius: 20px;
+  width: 148px;
+  background-color: #f69f00;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+
+} */
+ /* From Uiverse.io by alexmaracinaru */ 
+.cta {
+  position: relative;
+  margin: auto;
+  padding: 12px 18px;
+  transition: all 0.2s ease;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.cta:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 50px;
+  background: #7a83dc;
+  width: 45px;
+  height: 45px;
+  transition: all 0.3s ease;
+}
+
+.cta span {
+  position: relative;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: white;
+}
+
+.cta svg {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #7a83dc;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+}
+
+.cta:hover:before {
+  width: 100%;
+  background: #7a83dc;
+}
+
+.cta:hover svg {
+  transform: translateX(0);
+}
+
+.cta:active {
+  transform: scale(0.95);
+}
+
+
+/* container 1 */
+.background_img{
+  height: 131vh;
+ 
+}
+.banner_name{
+  color: #fff;
+  color: var(--white);
+  font-family: Elsie, serif;
+  font-size: 70px;
+  font-weight: 400;
+  letter-spacing: normal;
+  margin-bottom: 10px;
+}
+
+.stress_container{
+       display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+      margin-top: -54%;
+      color: white;
+      padding-right: 10px;
+      text-align: center;
+}
+.banner_btn{
+  align-items: center;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.google_btn {
+  background-color: white;
+  border: none;
+  border-radius: 12px;
+  display: block;
+  padding: 15px 35px;
+  position: relative;
+  transition: all .4s;
+}
+.google_btn:hover{
+  background-color: #7a83dc;
+}
+.apple_btn{
+  background-color: white;
+  border: none;
+  border-radius: 12px;
+  display: block;
+  padding: 15px 35px;
+  position: relative;
+  transition: all .4s;
+}
+.apple_btn:hover{
+  background-color: #7a83dc;
+}
+
+
+
+
+/* rated section */
+
+.rated_section{
+      display: flex;
+      justify-content: space-evenly;
+      width: 100%;
+      color: white;
+      height: 135px;
+      align-items: center;
+      flex-wrap: wrap;
+      background-color: #090023cc;
+}
+
+.rated_item{
+  display: flex
+;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+/* all media tag */
+
+@media screen and (max-width: 890px) {
+  .phone_img{
+    width: 86%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .stress_container {
+      margin-top: -102%;
+  }
+  .background_img{
+    height: 100vh;
+  }
+  .about-name{
+    margin-top: 29%;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .stress_container {
+      margin-top: -80%;
+  }
+}
+@media screen and (max-width: 1140px) {
+  .background_img {
+      height: 100vh !important;
+  }
+}
+@media screen and (max-width: 425px) {
+  .stress_container {
+      margin-top: -131%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .stress_container {
+      margin-top: -166% !important;
+  }
+}
+@media screen and (max-width: 320px) {
+  .stress_container {
+      margin-top: -166%;
+  }
+}
+@media screen and (max-width: 470px) {
+  .btn-img {
+      width: 60px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .background_img{
+  height: 100vh;
+ 
+}
+}
+@media screen and (max-width: 563px) {
+  
+  .banner_name{
+    font-size: 39px;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .background_img{
+  height: 150vh;
+ 
+}
+
+}
+
+ @media screen and (max-width: 768px) {
+  .stress_container {
+      margin-top: -102% ;
+  }
+}
